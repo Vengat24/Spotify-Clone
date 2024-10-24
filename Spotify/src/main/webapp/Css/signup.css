@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* For tablets (min-width: 600px) */
+@media (min-width: 300px) {
+    .signup-main {
+        width: 100%;
+        
+    }
+    body{
+        height: 100%;
+    }
+}
+
+/* For tablets (min-width: 600px) */
+@media (min-width: 600px) {
+    .signup-main {
+        width: 100%;
+    }
+    body{
+        height: 100%;
+    }
+}
+
+/* For desktops (min-width: 900px) */
+@media (min-width: 900px) {
+    .signup-main {
+        width: 50%; 
+        margin: 30px;
+    } 
+    body{
+        height: 100%;
+    }
+}
+
+/* For large desktops (min-width: 1200px) */
+@media (min-width: 1200px) {
+    .signup-main {
+        width:50% ;
+        margin: 30px;
+    }
+    body{
+        height: 100%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .signup-main {
+        width:30% ;
+        margin: 30px;
+    }
+    body{
+        height: 100%;
+    }
+}
+
+
+body{
+    background: linear-gradient(rgb(46, 45, 45),black);
+    background-size :cover;
+    background-position: center;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: sans-serif,system-ui,'Segoe UI','Open Sans', 'Helvetica Neue';
+    font-weight: 600;
+}
+
+
+
+.signup-main{
+    background: linear-gradient(rgb(10, 10, 10),rgb(16, 15, 15),rgb(27, 26, 26));
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    /* margin: 30px; */
+}
+.signup-main h3{
+    
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+}
+.logo{
+    font-size: 35px;
+    margin: 20px;
+}
+.signup-main div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.other-signup div,.top-signup .signupbtn input{
+    width: 250px;
+    height: 45px;
+    margin: 10px;
+    border: 0.1px solid rgb(104, 101, 101);
+    border-radius: 50px;
+    font-size: 13px;
+}
+.other-signup div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 35px;
+}
+.other-signup div:nth-child(3){
+    padding-left: 30px;
+    width: 260px;
+}
+.other-signup div:nth-child(2) img{
+        background-color: aliceblue;
+        border-radius: 80%;
+}
+
+.signup-main hr{
+    width: 75%;
+    height: 1px;
+    border: none;
+    background-color: rgb(50, 51, 52);
+}
+
+.signup-main .line{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.signup-main #half1,#half2{
+    width: 30%;
+    height: 1px;
+    border: none;
+    background-color: rgb(50, 51, 52);
+}
+.top-signup{
+    font-size: 12px;
+}
+.top-signup .email{
+    
+    display: flex;
+    gap: 7px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.top-signup div{
+    /* height: 60px; */
+    width: 270px;
+    /* border: 1px solid white; */
+    margin: 10px;
+}
+.top-signup .email input{
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgb(123, 120, 120);
+    margin-top: 5px;
+    padding-left: 10px;
+    border-radius: 2px;
+    color: aliceblue;
+}
+.top-signup .email input:hover,.other-signup div:hover{
+    border: 1px solid white;
+}
+.top-signup .email input:hover{
+    outline: 1px solid white;
+}
+.down-signup .password i{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 250px;
+    color: gray;
+    font-size: 16px;
+}
+.top-signup .signupbtn input{
+    width: 100%;
+    background-color: #1ed760;
+    border: none;
+    color: black;
+    font-weight: 700;
+    font-size: 12.5px;
+}
+.forget a, .signup a{
+    color: aliceblue;
+    font-size: 13px;
+}
+.end .forget{
+    width: 70%;
+    font-size: 12px;
+    text-align: center;
+}
+.end .signup{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+.signup p{
+    color: gray;
+}
